@@ -10,7 +10,7 @@ def policz_studentow_plec(studenci):
             liczba_mezczyzn += 1
 
         return[liczba_kobiet, liczba_mezczyzn]
-    studenci = []
+
     result = policz_studentow_plec(studenci)
     print(result)
 
