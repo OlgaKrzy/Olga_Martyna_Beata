@@ -1,8 +1,4 @@
-def hello(a: str) -> str:
-    # TODO
-    return "Hello Ola"
-
-
-# assert hello("Ola") == "Hello Ola"
-# assert hello("Zuzia") == "Hello Zuzia"
-
+def hello() -> str:
+    a = input("Wpisz swoje imie: ")
+    print("Hello " + a)
+    return a

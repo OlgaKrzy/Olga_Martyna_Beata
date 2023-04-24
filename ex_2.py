@@ -1,3 +1,4 @@
 def policz_studentow(studenci) -> int:
-    # TODO
-    return 0
+    liczba_studentow = len(studenci)
+    print("Liczba studentow wynosi: " + str(liczba_studentow))
+    return liczba_studentow
